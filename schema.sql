@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS reservations (
+  product_id TEXT PRIMARY KEY,
+  name TEXT NOT NULL,
+  note TEXT,
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
