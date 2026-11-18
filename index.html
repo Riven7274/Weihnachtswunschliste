@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5f0">
+  <meta name="description" content="Eine persönliche Wunschliste zum Anschauen und Reservieren.">
+  <title>Meine Wunschliste</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav"><a class="brand" href="#">MEINE WUNSCHLISTE</a><span class="nav-note">Persönlich zusammengestellt</span></nav>
+    <div class="hero-copy">
+      <p class="eyebrow">WEIHNACHTEN · WÜNSCHE · IDEEN</p>
+      <h1>Wünsche, die<br><em>Freude machen.</em></h1>
+      <p class="intro">Hier findest du eine Auswahl meiner Wünsche. Schau dich in Ruhe um – und wenn du etwas übernehmen möchtest, kannst du es direkt reservieren.</p>
+      <a class="jump" href="#liste">Wunschliste entdecken <span>↓</span></a>
+    </div>
+    <div class="hero-art" aria-hidden="true"><div class="art-circle"></div><div class="art-card"><span>MIT LIEBE</span><strong>ausgesucht.</strong><small>Eine kleine Sammlung schöner Dinge</small></div></div>
+  </header>
+
+  <main id="liste">
+    <section class="section-head">
+      <div><p class="eyebrow">DIE AUSWAHL</p><h2>Meine Wünsche</h2><p class="muted">Ein Klick auf „Zum Produkt“ führt zum jeweiligen Händler. Reservierungen werden für alle Besucher sichtbar aktualisiert.</p></div>
+      <div class="count" id="count">— Wünsche</div>
+    </section>
+    <div class="toolbar">
+      <label class="search-wrap"><span>⌕</span><input id="search" type="search" placeholder="Wunsch suchen …" aria-label="Wunsch suchen"></label>
+      <div class="filters" id="filters"></div>
+    </div>
+    <div class="grid" id="products" aria-live="polite"></div>
+    <p class="footnote">Die Produktangaben sind Orientierungshilfen. Modell, Farbe, Größe und Händlerlink können bei Bedarf noch ergänzt werden.</p>
+  </main>
+
+  <footer><span>MEINE WUNSCHLISTE</span><span>Schön, dass du vorbeischaust.</span></footer>
+
+  <dialog id="reserve-dialog">
+    <form id="reserve-form" method="dialog">
+      <button class="close" type="button" id="close-dialog" aria-label="Schließen">×</button>
+      <p class="eyebrow">WUNSCH RESERVIEREN</p>
+      <h2 id="dialog-title">Diesen Wunsch reservieren?</h2>
+      <p class="muted">Dein Name wird auf der Wunschliste als Reservierung angezeigt. Bitte verwende nur einen Vornamen oder Spitznamen.</p>
+      <label class="field">Dein Name<input id="reserve-name" maxlength="40" required placeholder="Vorname oder Spitzname"></label>
+      <label class="field">Kurze Nachricht <span class="optional">(optional)</span><input id="reserve-note" maxlength="120" placeholder="z. B. Ich kümmere mich darum"></label>
+      <p class="error" id="reserve-error" role="alert"></p>
+      <button class="primary" type="submit" id="reserve-submit">Verbindlich reservieren</button>
+    </form>
+  </dialog>
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
