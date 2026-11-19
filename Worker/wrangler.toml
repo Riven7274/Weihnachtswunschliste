@@ -5,4 +5,4 @@ compatibility_date = "2026-11-18"
 [[d1_databases]]
 binding = "DB"
 database_name = "wunschliste"
-database_id = "HIER_DIE_DATABASE_ID_EINTRAGEN"
+database_id = "fac769d0-e817-4655-8831-2e0d2a188632"
