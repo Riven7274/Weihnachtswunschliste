@@ -44,3 +44,4 @@ Alternativ lässt sich das Projekt auf Netlify veröffentlichen. Für eine einfa
 - Das Backend speichert den angegebenen Namen und eine optionale Nachricht. Es gibt noch keine Admin-Ansicht zum Löschen/Ändern von Reservierungen.
 - CORS ist für den einfachen Start offen konfiguriert. Vor produktiver Nutzung sollte die erlaubte Website-Domain eingeschränkt und ein Schutz gegen automatisierte Anfragen ergänzt werden.
 - Die Website enthält bewusst keine Affiliate-Links.
+
