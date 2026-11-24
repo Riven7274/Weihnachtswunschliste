@@ -173,4 +173,5 @@ window.WISHLIST_PRODUCTS = [
       }
     ],
     "image": ""
-  }
+    }
+];
