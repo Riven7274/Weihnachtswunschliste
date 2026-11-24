@@ -159,4 +159,18 @@ window.WISHLIST_PRODUCTS = [
     "links": [],
     "image": ""
   }
-];
+  {
+    "id": "handgripper",
+    "name": "Handgripper (verstellbarer Widerstand)",
+    "category": "Freizeit",
+    "brand": "Noch offen",
+    "description": "Handkrafttraining mit einstellbarem Widerstand.",
+    "price": "",
+    "links": [
+      {
+        "label": "Beispiel-Link",
+        "url": "https://example.com"
+      }
+    ],
+    "image": ""
+  }
