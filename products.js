@@ -158,7 +158,7 @@ window.WISHLIST_PRODUCTS = [
     "price": "",
     "links": [],
     "image": ""
-  }
+  },
   {
     "id": "handgripper",
     "name": "Handgripper (verstellbarer Widerstand)",
