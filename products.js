@@ -156,7 +156,12 @@ window.WISHLIST_PRODUCTS = [
     "brand": "De’Longhi",
     "description": "Eine Siebträgermaschine von De’Longhi; konkretes Modell noch offen.",
     "price": "",
-    "links": [],
+    "links": [
+  {
+    "label": "Bei Amazon ansehen",
+    "url": "https://www.amazon.de/dp/B06WGTZ874"
+  }
+],
     "image": ""
   },
   {
