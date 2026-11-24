@@ -149,19 +149,24 @@ window.WISHLIST_PRODUCTS = [
     "links": [],
     "image": ""
   },
-  {
-    "id": "delonghi-siebtraeger",
-    "name": "De’Longhi Siebträgermaschine",
-    "category": "Küche",
-    "brand": "De’Longhi",
-    "description": "Eine Siebträgermaschine von De’Longhi; konkretes Modell noch offen.",
-    "price": "",
-    "links": [
-  {
-    "label": "Bei Amazon ansehen",
-    "url": "https://www.amazon.de/dp/B06WGTZ874"
-  }
-],
+  
+{
+  "id": "delonghi-siebtraeger",
+  "name": "De’Longhi Dedica Style EC685.M – Silber",
+  "category": "Küche",
+  "brand": "De’Longhi",
+  "description": "Kompakte Siebträgermaschine mit professionellem Milchaufschäumer und Metallgehäuse.",
+  "details": "Modell EC685.M in Silber/Metall.",
+  "price": "",
+  "links": [
+    {
+      "label": "Bei Amazon ansehen",
+      "url": "https://www.amazon.de/dp/B06WGTZ874"
+    }
+  ],
+  "image": "https://m.media-amazon.com/images/I/61k2ShP4jKL._AC_SL1500_.jpg"
+},
+
     "image": "https://m.media-amazon.com/images/I/61k2ShP4jKL._AC_SL1500_.jpg"
   },
   {
