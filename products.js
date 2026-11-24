@@ -167,8 +167,6 @@ window.WISHLIST_PRODUCTS = [
   "image": "https://m.media-amazon.com/images/I/61k2ShP4jKL._AC_SL1500_.jpg"
 },
 
-    "image": "https://m.media-amazon.com/images/I/61k2ShP4jKL._AC_SL1500_.jpg"
-  },
   {
     "id": "handgripper",
     "name": "Handgripper (verstellbarer Widerstand)",
