@@ -162,7 +162,7 @@ window.WISHLIST_PRODUCTS = [
     "url": "https://www.amazon.de/dp/B06WGTZ874"
   }
 ],
-    "image": ""
+    "image": "https://m.media-amazon.com/images/I/61k2ShP4jKL._AC_SL1500_.jpg"
   },
   {
     "id": "handgripper",
